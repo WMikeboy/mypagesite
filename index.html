@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="meta.title">WMikeboy｜GitHub 個人履歷</title>
-    <meta name="description" content="WMikeboy 的個人履歷網站，包含經歷、技能、專案與聯絡方式。" data-i18n="meta.description" data-i18n-attr="content" />
+    <title data-i18n="meta.title">Mike Wong｜GitHub 個人履歷</title>
+    <meta name="description" content="Mike Wong 的個人履歷網站，包含經歷、技能、專案與聯絡方式。" data-i18n="meta.description" data-i18n-attr="content" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -13,7 +13,7 @@
 <body>
     <header class="hero" id="top">
         <nav class="nav">
-            <a class="brand" href="#top" data-i18n="brand.name">WMikeboy</a>
+            <a class="brand" href="#top" data-i18n="brand.name">Mike Wong</a>
             <div class="nav__links">
                 <a href="#about" data-i18n="nav.about">關於我</a>
                 <a href="#experience" data-i18n="nav.experience">經歷</a>
@@ -36,9 +36,9 @@
             </div>
         </nav>
         <div class="hero__content">
-            <p class="eyebrow" data-i18n="hero.eyebrow">GitHub 創作者 · 前端學習者</p>
-            <h1>WMikeboy</h1>
-            <p class="lead" data-i18n="hero.lead">熱衷透過 Vue、GitHub Pages 與 TypeScript 實作各式小專案，將學習筆記直接部署成可分享的作品。</p>
+            <p class="eyebrow" data-i18n="hero.eyebrow">GitHub 創作者 · 持續實作中</p>
+            <h1>Mike Wong</h1>
+            <p class="lead" data-i18n="hero.lead">最近完成多個前端與部署練習，包含 Firebase 登入頁、本機 AI 介面與 Vercel 靜態站，持續把想法快速做成可展示作品。</p>
             <div class="hero__actions">
                 <a class="btn primary" href="#projects" data-i18n="hero.cta.primary">查看作品</a>
                 <a class="btn ghost" href="https://github.com/WMikeboy" target="_blank" rel="noreferrer" data-i18n="hero.cta.secondary">GitHub</a>
@@ -46,11 +46,11 @@
             <ul class="hero__meta">
                 <li>
                     <span class="label" data-i18n="hero.meta.repos.label">公開 Repo</span>
-                    <span data-i18n="hero.meta.repos.value">3（HTML / TypeScript）</span>
+                    <span data-i18n="hero.meta.repos.value">7（JavaScript / HTML / TypeScript）</span>
                 </li>
                 <li>
                     <span class="label" data-i18n="hero.meta.updated.label">最近更新</span>
-                    <span data-i18n="hero.meta.updated.value">myvuesite · 2025-11</span>
+                    <span data-i18n="hero.meta.updated.value">firebaseloginpage · 2026-02</span>
                 </li>
                 <li>
                     <span class="label" data-i18n="hero.meta.joined.label">加入 GitHub</span>
@@ -58,7 +58,28 @@
                 </li>
             </ul>
         </div>
-        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__image">
+            <article class="hero-card hero-card--feature">
+                <p class="hero-card__label" data-i18n="hero.panel1.label">Now Building</p>
+                <h3 data-i18n="hero.panel1.title">Frontend + Deploy Workflow</h3>
+                <p data-i18n="hero.panel1.desc">Firebase login flow, local AI UI experiments, and rapid multi-platform deployment.</p>
+            </article>
+            <article class="hero-card hero-card--mini">
+                <p class="hero-card__label" data-i18n="hero.panel2.label">Current Stack</p>
+                <ul class="hero-stack">
+                    <li data-i18n="hero.stack.item1">JavaScript</li>
+                    <li data-i18n="hero.stack.item2">TypeScript</li>
+                    <li data-i18n="hero.stack.item3">Firebase Auth</li>
+                    <li data-i18n="hero.stack.item4">GitHub Actions</li>
+                    <li data-i18n="hero.stack.item5">Vercel</li>
+                    <li data-i18n="hero.stack.item6">Netlify</li>
+                </ul>
+            </article>
+            <article class="hero-card hero-card--stat">
+                <p class="hero-card__label" data-i18n="hero.panel3.label">Focus in 2026</p>
+                <p data-i18n="hero.panel3.desc">Ship practical projects faster and keep improving UI clarity with each release.</p>
+            </article>
+        </div>
     </header>
 
     <main>
@@ -66,7 +87,7 @@
             <div class="section__header">
                 <p class="eyebrow" data-i18n="about.eyebrow">ABOUT</p>
                 <h2 data-i18n="about.heading">關於我</h2>
-                <p data-i18n="about.description">目前透過 GitHub 建立前端玩具專案，從靜態網站到行動介面皆親手完成。喜歡把想法快速轉成可部署的作品，並將每次實驗寫入 repo 版本歷史。</p>
+                <p data-i18n="about.description">目前透過 GitHub 持續累積前端與部署練習，從靜態網頁到登入流程、再到本機 AI 介面都親手實作。每次迭代都記錄在 repo 歷史中。</p>
             </div>
             <div class="about__grid">
                 <article>
@@ -80,9 +101,9 @@
                 <article>
                     <h3 data-i18n="about.focus.title">近期練習方向</h3>
                     <ul>
-                        <li data-i18n="about.focus.item1">Vue 介面模組化與設計系統雛形</li>
-                        <li data-i18n="about.focus.item2">GitHub Pages 靜態部署</li>
-                        <li data-i18n="about.focus.item3">TypeScript + Capacitor 行動應用雛形</li>
+                        <li data-i18n="about.focus.item1">Firebase Authentication 與登入流程 UI</li>
+                        <li data-i18n="about.focus.item2">Vercel / Netlify / Azure 多平台部署</li>
+                        <li data-i18n="about.focus.item3">本機 AI Web UI 與前端互動整合</li>
                     </ul>
                 </article>
             </div>
@@ -95,19 +116,19 @@
             </div>
             <div class="timeline">
                 <article class="timeline__item">
-                    <span class="timeline__period" data-i18n="experience.timeline1.period">2025.11 - 現在</span>
-                    <h3 data-i18n="experience.timeline1.title">myvuesite｜作品總集</h3>
-                    <p data-i18n="experience.timeline1.desc">這個 repo 保存了本頁面與其他前端練習，重點在於掌握語意化 HTML 與響應式排版。</p>
+                    <span class="timeline__period" data-i18n="experience.timeline1.period">2026.01 - 現在</span>
+                    <h3 data-i18n="experience.timeline1.title">firebaseloginpage｜登入頁實作</h3>
+                    <p data-i18n="experience.timeline1.desc">建立 Firebase 登入頁專案，練習帳號驗證流程與前端介面整合。</p>
                 </article>
                 <article class="timeline__item">
-                    <span class="timeline__period" data-i18n="experience.timeline2.period">2025.08</span>
-                    <h3 data-i18n="experience.timeline2.title">mobile｜TypeScript Prototype</h3>
-                    <p data-i18n="experience.timeline2.desc">運用 TypeScript 製作行動介面的 UI 元件，練習模組化結構與跨平台輸出。</p>
+                    <span class="timeline__period" data-i18n="experience.timeline2.period">2025.12</span>
+                    <h3 data-i18n="experience.timeline2.title">localhostChatgpt_8gb｜本機 AI UI</h3>
+                    <p data-i18n="experience.timeline2.desc">製作本機 ChatGPT 介面頁，針對 RTX 2080 8GB 環境進行前端整合與流程驗證。</p>
                 </article>
                 <article class="timeline__item">
-                    <span class="timeline__period" data-i18n="experience.timeline3.period">2025.05</span>
-                    <h3 data-i18n="experience.timeline3.title">Mygitpagesite｜GitHub Pages</h3>
-                    <p data-i18n="experience.timeline3.desc">設定 GitHub Pages pipeline，嘗試把最小靜態網頁部署到公開網址。</p>
+                    <span class="timeline__period" data-i18n="experience.timeline3.period">2025.11</span>
+                    <h3 data-i18n="experience.timeline3.title">vercelpagesite / netlifypagesite / Myazurepagesite</h3>
+                    <p data-i18n="experience.timeline3.desc">同時嘗試多個靜態站部署平台，累積跨平台上線與維運經驗。</p>
                 </article>
             </div>
         </section>
@@ -119,24 +140,24 @@
                 <p class="stats__note">
                     <span data-i18n="stats.description.prefix">依據 </span>
                     <a href="https://github.com/WMikeboy" target="_blank" rel="noreferrer" data-i18n="stats.link">github.com/WMikeboy</a>
-                    <span data-i18n="stats.description.suffix"> 公開資料更新（2025-11-18）。</span>
+                    <span data-i18n="stats.description.suffix"> 公開資料更新（2026-02-19）。</span>
                 </p>
             </div>
             <div class="stats__grid">
                 <article class="stat-card">
                     <span class="stat-card__label" data-i18n="stats.card.repos.label">公開 Repo</span>
-                    <strong data-i18n="stats.card.repos.value">3</strong>
-                    <p data-i18n="stats.card.repos.detail">myvuesite · Mygitpagesite · mobile</p>
+                    <strong data-i18n="stats.card.repos.value">7</strong>
+                    <p data-i18n="stats.card.repos.detail">firebaseloginpage · localhostChatgpt_8gb · vercelpagesite 等</p>
                 </article>
                 <article class="stat-card">
                     <span class="stat-card__label" data-i18n="stats.card.langs.label">主要語言</span>
-                    <strong data-i18n="stats.card.langs.value">HTML · TypeScript</strong>
-                    <p data-i18n="stats.card.langs.detail">著重前端介面與行動開發練習。</p>
+                    <strong data-i18n="stats.card.langs.value">JavaScript · HTML · TypeScript</strong>
+                    <p data-i18n="stats.card.langs.detail">著重前端介面實作、部署流程與 AI UI 整合。</p>
                 </article>
                 <article class="stat-card">
                     <span class="stat-card__label" data-i18n="stats.card.follow.label">Followers / Following</span>
-                    <strong data-i18n="stats.card.follow.value">0 / 1</strong>
-                    <p data-i18n="stats.card.follow.detail">持續追蹤前端相關帳號，吸收新技巧。</p>
+                    <strong data-i18n="stats.card.follow.value">3 / 1</strong>
+                    <p data-i18n="stats.card.follow.detail">持續追蹤前端與 AI 相關帳號，吸收新技巧。</p>
                 </article>
                 <article class="stat-card">
                     <span class="stat-card__label" data-i18n="stats.card.joined.label">加入年份</span>
@@ -153,43 +174,43 @@
             </div>
             <div class="skills__grid">
                 <article>
-                    <h3 data-i18n="skills.section.product">產品與設計</h3>
+                    <h3 data-i18n="skills.section.product">前端核心</h3>
                     <div class="skill" data-skill="90">
-                        <span data-i18n="skills.product.strategy">產品策略</span>
+                        <span data-i18n="skills.product.strategy">HTML / CSS</span>
                         <div class="bar"><span></span></div>
                     </div>
                     <div class="skill" data-skill="85">
-                        <span data-i18n="skills.product.uxui">UX / UI 設計</span>
+                        <span data-i18n="skills.product.uxui">JavaScript</span>
                         <div class="bar"><span></span></div>
                     </div>
-                    <div class="skill" data-skill="75">
-                        <span data-i18n="skills.product.system">Design System</span>
-                        <div class="bar"><span></span></div>
-                    </div>
-                </article>
-                <article>
-                    <h3 data-i18n="skills.section.tech">技術</h3>
                     <div class="skill" data-skill="80">
-                        <span data-i18n="skills.tech.frontend">Vue / React</span>
-                        <div class="bar"><span></span></div>
-                    </div>
-                    <div class="skill" data-skill="70">
-                        <span data-i18n="skills.tech.ts">TypeScript</span>
-                        <div class="bar"><span></span></div>
-                    </div>
-                    <div class="skill" data-skill="65">
-                        <span data-i18n="skills.tech.api">Node / API</span>
+                        <span data-i18n="skills.product.system">響應式設計</span>
                         <div class="bar"><span></span></div>
                     </div>
                 </article>
                 <article>
-                    <h3 data-i18n="skills.section.tools">工具</h3>
+                    <h3 data-i18n="skills.section.tech">平台與部署</h3>
+                    <div class="skill" data-skill="82">
+                        <span data-i18n="skills.tech.frontend">Firebase Auth</span>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="skill" data-skill="85">
+                        <span data-i18n="skills.tech.ts">Vercel / Netlify / Azure</span>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="skill" data-skill="78">
+                        <span data-i18n="skills.tech.api">GitHub Actions / Pages</span>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </article>
+                <article>
+                    <h3 data-i18n="skills.section.tools">開發工具</h3>
                     <ul class="tag-list">
-                        <li>Figma</li>
-                        <li>Framer</li>
-                        <li>Notion</li>
-                        <li>Jira</li>
-                        <li>GSuite</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Firebase Console</li>
+                        <li>Vercel</li>
                     </ul>
                 </article>
             </div>
@@ -202,22 +223,22 @@
             </div>
             <div class="projects__grid">
                 <article>
-                    <div class="pill" data-i18n="projects.item1.tag">HTML · CSS</div>
-                    <h3>myvuesite</h3>
-                    <p data-i18n="projects.item1.desc">完整的個人介紹網站範本，持續迭代內容與樣式，練習響應式版型。</p>
-                    <a href="https://github.com/WMikeboy/myvuesite" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item1.link">前往 Repo →</a>
+                    <div class="pill" data-i18n="projects.item1.tag">Firebase · Auth</div>
+                    <h3>firebaseloginpage</h3>
+                    <p data-i18n="projects.item1.desc">以 Firebase Authentication 為核心的登入頁實作，練習表單流程、狀態回饋與 UI 整合。</p>
+                    <a href="https://github.com/WMikeboy/firebaseloginpage" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item1.link">前往 Repo →</a>
                 </article>
                 <article>
-                    <div class="pill" data-i18n="projects.item2.tag">GitHub Pages</div>
-                    <h3>Mygitpagesite</h3>
-                    <p data-i18n="projects.item2.desc">使用 GitHub Pages 發布的極簡著陸頁，專注在部署流程與資源最小化。</p>
-                    <a href="https://github.com/WMikeboy/Mygitpagesite" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item2.link">查看原始碼 →</a>
+                    <div class="pill" data-i18n="projects.item2.tag">HTML · Local AI</div>
+                    <h3>localhostChatgpt_8gb</h3>
+                    <p data-i18n="projects.item2.desc">本機執行的 ChatGPT 介面頁，聚焦在前端互動流程與低資源環境的可用性。</p>
+                    <a href="https://github.com/WMikeboy/localhostChatgpt_8gb" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item2.link">查看原始碼 →</a>
                 </article>
                 <article>
-                    <div class="pill" data-i18n="projects.item3.tag">TypeScript</div>
-                    <h3>mobile</h3>
-                    <p data-i18n="projects.item3.desc">行動 UI 元件實驗室，嘗試將 TypeScript 與行動框架整合，打造快速互動。</p>
-                    <a href="https://github.com/WMikeboy/mobile" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item3.link">閱讀筆記 →</a>
+                    <div class="pill" data-i18n="projects.item3.tag">JavaScript · Deploy</div>
+                    <h3>vercelpagesite</h3>
+                    <p data-i18n="projects.item3.desc">部署於 Vercel 的練習站點，驗證前端專案上線流程與快速迭代方法。</p>
+                    <a href="https://github.com/WMikeboy/vercelpagesite" target="_blank" rel="noreferrer" class="text-link" data-i18n="projects.item3.link">閱讀筆記 →</a>
                 </article>
             </div>
         </section>
@@ -226,42 +247,22 @@
             <div class="contact__card">
                 <div>
                     <p class="eyebrow" data-i18n="contact.eyebrow">CONTACT</p>
-                    <h2 data-i18n="contact.heading">一起打造下一個體驗</h2>
-                    <p data-i18n="contact.description">若你正在尋找能一起實驗前端技術或部署流程的夥伴，歡迎在 GitHub 或 email 上聯絡。</p>
+                    <h2 data-i18n="contact.heading">一起打造下一個專案</h2>
+                    <p data-i18n="contact.description">如果你也在做前端、部署或 AI 介面實驗，歡迎直接來信聯絡。</p>
                     <ul class="contact__info">
                         <li>
                             <span data-i18n="contact.info.email.label">Email</span>
                             <span class="contact__separator" data-i18n="contact.info.separator">：</span>
-                            <a href="mailto:mike@example.com">mike@example.com</a>
-                        </li>
-                        <li>
-                            <span data-i18n="contact.info.github.label">GitHub</span>
-                            <span class="contact__separator" data-i18n="contact.info.separator">：</span>
-                            <a href="https://github.com/WMikeboy" target="_blank" rel="noreferrer">@WMikeboy</a>
+                            <a href="mailto:mike@example.com">ckmikejanpan@gmail.com</a>
                         </li>
                     </ul>
                 </div>
-                <form class="contact__form">
-                    <label>
-                        <span data-i18n="contact.form.name.label">您的名字</span>
-                        <input type="text" placeholder="例如：王小明" required data-i18n="contact.form.name.placeholder" data-i18n-attr="placeholder" />
-                    </label>
-                    <label>
-                        <span data-i18n="contact.form.email.label">聯絡 Email</span>
-                        <input type="email" placeholder="you@email.com" required data-i18n="contact.form.email.placeholder" data-i18n-attr="placeholder" />
-                    </label>
-                    <label>
-                        <span data-i18n="contact.form.message.label">訊息</span>
-                        <textarea rows="4" placeholder="想合作的內容或想聊的主題" data-i18n="contact.form.message.placeholder" data-i18n-attr="placeholder"></textarea>
-                    </label>
-                    <button type="submit" class="btn primary" data-i18n="contact.form.button">送出訊息</button>
-                </form>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>© <span id="year"></span> <span data-i18n="footer.copy">WMikeboy · Powered by GitHub Pages.</span></p>
+        <p>© <span id="year"></span> <span data-i18n="footer.copy">Mike Wong · Powered by GitHub Pages.</span></p>
     </footer>
 
     <script src="js/main.js"></script>
